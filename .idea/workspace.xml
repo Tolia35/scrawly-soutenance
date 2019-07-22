@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="128d5398-7936-4941-ba0f-409b47748494" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/scrawly-soutenance.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/scrawly-soutenance.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrawly-react/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/scrawly-react/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrawly-react/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/scrawly-react/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrawly-react/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/scrawly-react/src/index.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,47 +16,39 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings">
+  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/scrawly-api/composer.json</pharConfigPath>
     <execution>
       <executable />
     </execution>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scrawly-api/src/DataFixtures/AppFixtures.php">
+        <entry file="file://$PROJECT_DIR$/scrawly-react/src/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="60" column="36" selection-start-line="60" selection-start-column="36" selection-end-line="60" selection-end-column="36" />
+            <state relative-caret-position="300">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
               <folding>
-                <element signature="e#34#54#0#PHP" expanded="true" />
+                <element signature="e#29#55#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scrawly-api/src/Entity/Choice.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="44" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/scrawly-api/src/Entity/Person.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-855">
-              <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
-              <folding>
-                <element signature="e#30#74#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/scrawly-react/src/reducers/reducers.js">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -62,8 +60,105 @@
         <option value="$PROJECT_DIR$/scrawly-api/src/Entity/Choice.php" />
         <option value="$PROJECT_DIR$/scrawly-api/.gitignore" />
         <option value="$PROJECT_DIR$/scrawly-api/src/DataFixtures/AppFixtures.php" />
+        <option value="$PROJECT_DIR$/scrawly-react/.gitignore" />
+        <option value="$PROJECT_DIR$/scrawly-react/src/index.js" />
+        <option value="$PROJECT_DIR$/scrawly-react/src/reducers/reducers.js" />
       </list>
     </option>
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/scrawly-api/vendor/psr/link" />
+      <path value="$PROJECT_DIR$/scrawly-api/vendor/jdorn/sql-formatter" />
+      <path value="$PROJECT_DIR$/scrawly-api/vendor/symfony/property-info" />
+      <path value="$PROJECT_DIR$/scrawly-api/vendor/symfony/serializer" />
+      <path value="$PROJECT_DIR$/scrawly-api/vendor/symfony/web-link" />
+      <path value="$PROJECT_DIR$/scrawly-api/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/scrawly-api/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/scrawly-api/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/scrawly-api/vendor/composer" />
+      <path value="$PROJECT_DIR$/scrawly-api/vendor/psr/cache" />
+      <path value="$PROJECT_DIR$/scrawly-api/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/scrawly-api/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/scrawly-api/vendor/doctrine/migrations" />
+      <path value="$PROJECT_DIR$/scrawly-api/vendor/doctrine/doctrine-migrations-bundle" />
+      <path value="$PROJECT_DIR$/scrawly-api/vendor/doctrine/orm" />
+      <path value="$PROJECT_DIR$/scrawly-api/vendor/twig/twig" />
+      <path value="$PROJECT_DIR$/scrawly-api/vendor/doctrine/doctrine-fixtures-bundle" />
+      <path value="$PROJECT_DIR$/scrawly-api/vendor/doctrine/data-fixtures" />
+      <path value="$PROJECT_DIR$/scrawly-api/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/scrawly-api/vendor/fig/link-util" />
+      <path value="$PROJECT_DIR$/scrawly-api/vendor/symfony/dependency-injection" />
+      <path value="$PROJECT_DIR$/scrawly-api/vendor/symfony/mime" />
+      <path value="$PROJECT_DIR$/scrawly-api/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/scrawly-api/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/scrawly-api/vendor/symfony/polyfill-intl-idn" />
+      <path value="$PROJECT_DIR$/scrawly-api/vendor/symfony/flex" />
+      <path value="$PROJECT_DIR$/scrawly-api/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/scrawly-api/vendor/symfony/cache-contracts" />
+      <path value="$PROJECT_DIR$/scrawly-api/vendor/symfony/event-dispatcher-contracts" />
+      <path value="$PROJECT_DIR$/scrawly-api/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/scrawly-api/vendor/symfony/yaml" />
+      <path value="$PROJECT_DIR$/scrawly-api/vendor/symfony/cache" />
+      <path value="$PROJECT_DIR$/scrawly-api/vendor/symfony/framework-bundle" />
+      <path value="$PROJECT_DIR$/scrawly-api/vendor/symfony/polyfill-php72" />
+      <path value="$PROJECT_DIR$/scrawly-api/vendor/symfony/debug" />
+      <path value="$PROJECT_DIR$/scrawly-api/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/scrawly-api/vendor/symfony/polyfill-php73" />
+      <path value="$PROJECT_DIR$/scrawly-api/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/scrawly-api/vendor/api-platform/core" />
+      <path value="$PROJECT_DIR$/scrawly-api/vendor/symfony/filesystem" />
+      <path value="$PROJECT_DIR$/scrawly-api/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/scrawly-api/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/scrawly-api/vendor/symfony/dotenv" />
+      <path value="$PROJECT_DIR$/scrawly-api/vendor/symfony/web-server-bundle" />
+      <path value="$PROJECT_DIR$/scrawly-api/vendor/api-platform/api-pack" />
+      <path value="$PROJECT_DIR$/scrawly-api/vendor/symfony/config" />
+      <path value="$PROJECT_DIR$/scrawly-api/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/scrawly-api/vendor/symfony/var-exporter" />
+      <path value="$PROJECT_DIR$/scrawly-api/vendor/symfony/twig-bridge" />
+      <path value="$PROJECT_DIR$/scrawly-api/vendor/zendframework/zend-eventmanager" />
+      <path value="$PROJECT_DIR$/scrawly-api/vendor/zendframework/zend-code" />
+      <path value="$PROJECT_DIR$/scrawly-api/vendor/symfony/security-http" />
+      <path value="$PROJECT_DIR$/scrawly-api/vendor/symfony/security-guard" />
+      <path value="$PROJECT_DIR$/scrawly-api/vendor/symfony/asset" />
+      <path value="$PROJECT_DIR$/scrawly-api/vendor/symfony/inflector" />
+      <path value="$PROJECT_DIR$/scrawly-api/vendor/symfony/security-csrf" />
+      <path value="$PROJECT_DIR$/scrawly-api/vendor/symfony/translation-contracts" />
+      <path value="$PROJECT_DIR$/scrawly-api/vendor/symfony/expression-language" />
+      <path value="$PROJECT_DIR$/scrawly-api/vendor/symfony/twig-bundle" />
+      <path value="$PROJECT_DIR$/scrawly-api/vendor/symfony/doctrine-bridge" />
+      <path value="$PROJECT_DIR$/scrawly-api/vendor/symfony/security-core" />
+      <path value="$PROJECT_DIR$/scrawly-api/vendor/symfony/validator" />
+      <path value="$PROJECT_DIR$/scrawly-api/vendor/symfony/property-access" />
+      <path value="$PROJECT_DIR$/scrawly-api/vendor/symfony/security-bundle" />
+      <path value="$PROJECT_DIR$/scrawly-api/vendor/nelmio/cors-bundle" />
+      <path value="$PROJECT_DIR$/scrawly-api/vendor/willdurand/negotiation" />
+      <path value="$PROJECT_DIR$/scrawly-api/vendor/doctrine/doctrine-cache-bundle" />
+      <path value="$PROJECT_DIR$/scrawly-api/vendor/doctrine/reflection" />
+      <path value="$PROJECT_DIR$/scrawly-api/vendor/doctrine/cache" />
+      <path value="$PROJECT_DIR$/scrawly-api/vendor/doctrine/event-manager" />
+      <path value="$PROJECT_DIR$/scrawly-api/vendor/doctrine/dbal" />
+      <path value="$PROJECT_DIR$/scrawly-api/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/scrawly-api/vendor/ocramius/proxy-manager" />
+      <path value="$PROJECT_DIR$/scrawly-api/vendor/doctrine/annotations" />
+      <path value="$PROJECT_DIR$/scrawly-api/vendor/ocramius/package-versions" />
+      <path value="$PROJECT_DIR$/scrawly-api/vendor/doctrine/common" />
+      <path value="$PROJECT_DIR$/scrawly-api/vendor/doctrine/doctrine-bundle" />
+      <path value="$PROJECT_DIR$/scrawly-api/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/scrawly-api/vendor/doctrine/collections" />
+      <path value="$PROJECT_DIR$/scrawly-api/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/scrawly-api/vendor/doctrine/persistence" />
+      <path value="$PROJECT_DIR$/scrawly-api/vendor/symfony/maker-bundle" />
+      <path value="$PROJECT_DIR$/scrawly-api/vendor/symfony/stopwatch" />
+      <path value="$PROJECT_DIR$/scrawly-api/vendor/webmozart/assert" />
+    </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="655" />
@@ -77,6 +172,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -92,21 +188,25 @@
             <path>
               <item name="scrawly-soutenance" type="b2602c69:ProjectViewProjectNode" />
               <item name="scrawly-soutenance" type="462c0819:PsiDirectoryNode" />
-              <item name="scrawly-api" type="462c0819:PsiDirectoryNode" />
+              <item name="scrawly-react" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="scrawly-soutenance" type="b2602c69:ProjectViewProjectNode" />
+              <item name="scrawly-soutenance" type="462c0819:PsiDirectoryNode" />
+              <item name="scrawly-react" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="scrawly-soutenance" type="b2602c69:ProjectViewProjectNode" />
               <item name="scrawly-soutenance" type="462c0819:PsiDirectoryNode" />
-              <item name="scrawly-api" type="462c0819:PsiDirectoryNode" />
+              <item name="scrawly-react" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Entity" type="462c0819:PsiDirectoryNode" />
+              <item name="reducers" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -115,6 +215,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/scrawly-api" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -143,12 +244,13 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1563521844365</updated>
-      <workItem from="1563521845695" duration="11685000" />
+      <workItem from="1563521845695" duration="16450000" />
+      <workItem from="1563778189928" duration="4814000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11685000" />
+    <option name="totallyTimeSpent" value="21264000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -161,15 +263,11 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1680" height="980" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12362301" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12362301" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32902467" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -177,10 +275,15 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32902467" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.19858989" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -221,6 +324,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/scrawly-react/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="6" lean-forward="true" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/scrawly-api/src/Entity/Person.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-855">
@@ -230,6 +340,44 @@
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrawly-react/src/App.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrawly-react/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrawly-react/public/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrawly-react/package.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrawly-react/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#29#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrawly-react/src/reducers/reducers.js">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
