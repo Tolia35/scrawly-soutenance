@@ -11,8 +11,8 @@ function App() {
       <div className="App">
         <header className="App-header">
             <Switch>
-                <Route to="/" exact component={Homepage}/>
-                <Route to="/scrawl/:slug" exact component={Scrawl}/>
+                <Route path="/" exact component={Homepage}/>
+                <Route path="/scrawl/:slug" exact component={Scrawl}/>
             </Switch>
         </header>
       </div>
