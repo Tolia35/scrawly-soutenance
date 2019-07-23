@@ -1,4 +1,5 @@
-import {UPDATE_SLUG} from "../actions/scrawly";
+import {UPDATE_SLUG, SCRAWLY_SHOW_SUCCESS, SCRAWLY_CREATE_SUCCESS} from "../actions/scrawly";
+import slugme from "slugme";
 
 const initialState = {
     scrawl: {
@@ -8,16 +9,25 @@ const initialState = {
         person:[]
     }
 }
-
 function scrawlyApp (state = initialState, action){
     switch (action.type){
         case UPDATE_SLUG:
-            let newState = Object.assign({}, state);
-            newState.scrawl.slug = action.payload;
-            return newState;
+            return {
+                ...state,
+                scrawl: { ...state.scrawl, slug: slugme (action.payload) }
+            };
+        case SCRAWLY_SHOW_SUCCESS:
+            return {
+                ...state,
+                scrawl: action.payload
+            };
+        case SCRAWLY_CREATE_SUCCESS:
+            return {
+                ...state,
+                scrawl: action.payload
+            };
         default:
             return state;
     };
 }
-
 export default scrawlyApp;
