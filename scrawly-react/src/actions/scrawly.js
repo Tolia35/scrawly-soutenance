@@ -1,4 +1,5 @@
 export const UPDATE_SLUG = "UPDATE_SLUG";
+export const UPDATE_TITLE = "UPDATE_TITLE";
 export const SCRAWLY_SHOW_ERROR = "SCRAWLY_SHOW_ERROR";
 export const SCRAWLY_SHOW_SUCCESS = "SCRAWLY_SHOW_SUCCESS";
 export const SCRAWLY_CREATE_ERROR = "SCRAWLY_CREATE_ERROR";
@@ -10,6 +11,14 @@ export function updateSlug(slug) {
         payload: slug
     };
 }
+
+export function updateTitle(title) {
+    return {
+        type: UPDATE_TITLE,
+        payload: title
+    };
+}
+
 export function scrawlyShow(slug) {
     return dispatch => {
         fetch(process.env.REACT_APP_API + '/polls?slug=' + slug)
