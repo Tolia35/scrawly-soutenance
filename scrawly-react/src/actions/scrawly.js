@@ -43,16 +43,14 @@ export function scrawlyShowError() {
 }
 /* Scrawly Create*/
 
-export function scrawlyCreate(title, slug) {
+export function scrawlyCreate(scrawl) {
     return dispatch => {
         fetch(process.env.REACT_APP_API + '/polls', {
             method: 'POST',
             headers: {
+                "Content-Type": "application/json"
             },
-            body: JSON.stringify({
-                "title": title,
-                "slug": slug
-            })
+            body: JSON.stringify(scrawl)
         })
             .then(response => response.json())
             .then(data => {
