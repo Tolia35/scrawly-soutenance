@@ -1,6 +1,6 @@
 import { connect } from "react-redux";
 import {} from "../actions/scrawly";
-import Scrawl from "../components/Scrawl";
+import ScrawlEdit from "../components/ScrawlEdit";
 
 
 // Envoyer des données du state au componant
@@ -11,6 +11,7 @@ const mapStateToProps = state => {
         scrawl: state.scrawly.scrawl
     }
 };
+
 // Envoyer des actions au componant
 
 const mapDispatchToProps = dispatch => ({
@@ -18,4 +19,4 @@ const mapDispatchToProps = dispatch => ({
 export default connect(
     mapStateToProps,
     mapDispatchToProps
-)(Scrawl)
+)(ScrawlEdit)

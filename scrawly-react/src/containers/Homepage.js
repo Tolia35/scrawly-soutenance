@@ -2,8 +2,8 @@ import { connect } from "react-redux";
 import { updateSlug, scrawlyShow } from "../actions/scrawly";
 import Homepage from "../components/Homepage";
 
-// import du composant
 // Envoyer des données du state au composant
+
 const mapStateToProps = state => {
     console.log(state)
     return {
@@ -12,6 +12,7 @@ const mapStateToProps = state => {
     }
 };
 // Envoyer des actions au composant
+
 const mapDispatchToProps = dispatch => ({
     updateSlug: slug => dispatch(updateSlug(slug)),
     show: slug => dispatch(scrawlyShow(slug))

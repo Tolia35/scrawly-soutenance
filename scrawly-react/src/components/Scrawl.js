@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 
+// Visu d'un scrawl spécifique via recherche
 class Scrawl extends Component {
     render() {
         return (
