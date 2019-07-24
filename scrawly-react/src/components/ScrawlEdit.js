@@ -8,7 +8,6 @@ class ScrawlEdit extends Component {
 
             <div className="container form-new">
                 <h1>{this.props.scrawl.title}</h1>
-                <input type="text" id="title" placeholder={this.props.scrawl.title}/>
                     <ul>
                         <li>{this.props.scrawl.choices}</li>
                     </ul>
@@ -21,7 +20,7 @@ class ScrawlEdit extends Component {
                         </form>
                     <button type="submit" className="btn button-primary">
                         <i className="fa fa-arrow-right"></i>
-                        Sauvegarder les dates ajoutées
+                        Sauvegarder les modifications
                     </button>
             </div>
         )

@@ -4,7 +4,7 @@ import slugme from "slugme";
 const initialState = {
     scrawl: {
         title:"",
-        slug:"Test",
+        slug:"",
         choices:[],
         person:[]
     }
