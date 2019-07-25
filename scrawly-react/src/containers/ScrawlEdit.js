@@ -7,7 +7,9 @@ import ScrawlEdit from "../components/ScrawlEdit";
 
 const mapStateToProps = state => {
     return {
-        scrawl: state.scrawly.scrawl
+        scrawl: state.scrawly.scrawl,
+        id: state.scrawly.scrawl["@id"],
+        error: state.scrawly.error,
     }
 };
 
@@ -15,8 +17,8 @@ const mapStateToProps = state => {
 
 const mapDispatchToProps = dispatch => ({
     updateChoices: choices=> dispatch(updateChoices(choices)),
-    choicesCreate: choices=>dispatch(choicesCreate(choices)),
-    choicesShow: choices=>dispatch(choicesShow(choices)),
+    choicesCreate: choices=> dispatch(choicesCreate(choices)),
+    // choicesShow: choices=> dispatch(choicesShow(choices)),
 
 });
 

@@ -17,7 +17,6 @@ export function updateSlug(slug) {
         payload: slug
     };
 }
-
 export function updateTitle(title) {
     return {
         type: UPDATE_TITLE,
@@ -139,10 +138,10 @@ export function scrawlyCreateError() {
 
 /* Choices create success et error */
 
-export function choicesCreateSuccess(scrawl) {
+export function choicesCreateSuccess(choices) {
     return {
         type: CHOICES_CREATE_SUCCESS,
-        payload: scrawl
+        payload: choices
     };
 }
 export function choicesCreateError() {
@@ -150,13 +149,14 @@ export function choicesCreateError() {
 }
 
 /* choices show success et error  */
-export function choicesShowSuccess(scrawl) {
+export function choicesShowSuccess(choices) {
     return {
         type: CHOICES_SHOW_SUCCESS,
-        payload: scrawl
+        payload: choices
     };
 }
-
 export function choicesShowError() {
     return { type: CHOICES_SHOW_ERROR };
 }
+
+//pour chaque actions ( export en haut + export fonction + export fonction )  > reducer ( import + case )  > container ( import en haut + const map ) > component ( ++ )

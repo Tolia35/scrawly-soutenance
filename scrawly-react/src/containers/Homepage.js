@@ -8,7 +8,8 @@ const mapStateToProps = state => {
     console.log(state)
     return {
         slug: state.scrawly.scrawl.slug,
-        id: state.scrawly.scrawl["@id"]
+        id: state.scrawly.scrawl["@id"],
+        error: state.scrawly.error
     }
 };
 // Envoyer des actions HP au composant HP

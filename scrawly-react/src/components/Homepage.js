@@ -18,11 +18,12 @@ class Homepage extends Component {
         return(
             <div className="homepage bg-blue">
                 <h1>Scrawly</h1>
+                <div>{this.props.error}</div>
                 <form onSubmit={event => this.handleSubmit(event)}>
                     <input type="text" placeholder="Scrawl slug" value={this.props.slug} onChange={event => this.props.updateSlug(event.target.value)}/>
                     <input type="submit" value="GO!"/>
                 </form>
-                <Link className="btn" to={'/scrawlnew'}>Create a new Scrawl</Link>
+                <Link className="btn" to={'/scrawlnew'}>Crée un nouveau Scrawl</Link>
             </div>
         );
     }

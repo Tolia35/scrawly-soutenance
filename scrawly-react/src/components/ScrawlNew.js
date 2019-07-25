@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import {Redirect} from 'react-router-dom';
 
 
-// Visu pour le formulaire de nouveau scrawly ( titre )
+// Visu pour le formulaire de nouveau scrawly ( titre + slug )
 
 class ScrawlNew extends Component {
     handleSubmit(event) {
@@ -19,6 +19,7 @@ class ScrawlNew extends Component {
         }
         return (
             <div>
+                <div>{this.props.error}</div>
                 <form onSubmit={event => this.handleSubmit(event)}>
                     <div>
                         <label for="title">Titre</label>

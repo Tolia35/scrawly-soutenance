@@ -5,9 +5,9 @@ import React, { Component } from 'react';
 class ScrawlEdit extends Component {
     handleSubmit(event) {
         event.preventDefault();
-        this.props.choicesShow({
-                choices: this.props.scrawl.choices,
-
+        this.props.choicesCreate({
+                date: this.props.scrawl.choices,
+                poll: this.props.scrawl["@id"],
             }
         );
     }
@@ -19,8 +19,9 @@ class ScrawlEdit extends Component {
                     <ul>
                         <li>{this.props.scrawl.choices}</li>
                     </ul>
+                    <div>{this.props.error}</div>
                     <form onSubmit={event => this.handleSubmit(event)}>
-                        <input type="date" placeholder="Scrawl Date" value={this.props.date} onChange={event => this.props.updateChoices(event.target.value)}/>
+                        <input type="date" placeholder="Scrawl Date" value={this.props.scrawl.choices} onChange={event => this.props.updateChoices(event.target.value)}/>
                         <button type="submit" className="btn button-primary">
                             <i className="fa fa-plus"></i>
                             Ajouter une date

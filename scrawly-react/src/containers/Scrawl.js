@@ -1,5 +1,5 @@
 import { connect } from "react-redux";
-import {} from "../actions/scrawly";
+import {scrawlyShow} from "../actions/scrawly";
 import Scrawl from "../components/Scrawl";
 
 
@@ -8,12 +8,14 @@ import Scrawl from "../components/Scrawl";
 const mapStateToProps = state => {
     console.log(state)
     return {
-        scrawl: state.scrawly.scrawl
+        scrawl: state.scrawly.scrawl,
+        error: state.scrawly.error
     }
 };
 // Envoyer des actions du scrawl au componant S
 
 const mapDispatchToProps = dispatch => ({
+    show: slug=>dispatch(scrawlyShow(slug))
 });
 export default connect(
     mapStateToProps,
