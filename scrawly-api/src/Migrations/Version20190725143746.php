@@ -10,7 +10,7 @@ use Doctrine\Migrations\AbstractMigration;
 /**
  * Auto-generated Migration: Please modify to your needs!
  */
-final class Version20190725134740 extends AbstractMigration
+final class Version20190725143746 extends AbstractMigration
 {
     public function getDescription() : string
     {
@@ -28,7 +28,6 @@ final class Version20190725134740 extends AbstractMigration
         $this->addSql('CREATE INDEX IDX_5D0E6A24217BBB47 ON person_choice (person_id)');
         $this->addSql('CREATE INDEX IDX_5D0E6A24998666D1 ON person_choice (choice_id)');
         $this->addSql('CREATE TABLE poll (id INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, title VARCHAR(255) NOT NULL, slug VARCHAR(255) NOT NULL, created_at DATETIME NOT NULL)');
-        $this->addSql('CREATE UNIQUE INDEX UNIQ_84BCFA45989D9B62 ON poll (slug)');
         $this->addSql('CREATE TABLE choice (id INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, poll_id INTEGER NOT NULL, date DATE NOT NULL)');
         $this->addSql('CREATE INDEX IDX_C1AB5A923C947C0F ON choice (poll_id)');
     }

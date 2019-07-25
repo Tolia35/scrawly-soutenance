@@ -164,7 +164,7 @@ class Poll
         return $this;
     }
     /**
-    * * @ORM\PrePersist()
+    *@ORM\PrePersist()
     */
     public function PrePersist(){
         $this->setCreatedAt(new \DateTime());
