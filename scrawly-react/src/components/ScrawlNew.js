@@ -9,7 +9,7 @@ class ScrawlNew extends Component {
         event.preventDefault();
         this.props.scrawlyCreate({
                 title : this.props.scrawl.title,
-                slug: this.props.scrawl.title,
+                slug: this.props.scrawl.slug,
             }
         );
     }

@@ -24,7 +24,7 @@ class Choice
 
     /**
      * @Groups({"poll"})
-     * @ORM\Column(type="date")
+     * @ORM\Column(type="date", unique=true)
      */
     private $date;
 
