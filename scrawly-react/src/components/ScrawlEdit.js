@@ -3,6 +3,14 @@ import React, { Component } from 'react';
 // Visu pour le formulaire de l'édition des dates de scrawl sur un scrawl existant
 
 class ScrawlEdit extends Component {
+    handleSubmit(event) {
+        event.preventDefault();
+        this.props.choicesShow({
+                choices: this.props.scrawl.choices,
+
+            }
+        );
+    }
     render() {
         return (
 
@@ -12,7 +20,7 @@ class ScrawlEdit extends Component {
                         <li>{this.props.scrawl.choices}</li>
                     </ul>
                     <form onSubmit={event => this.handleSubmit(event)}>
-                        <input type="date"/>
+                        <input type="date" placeholder="Scrawl Date" value={this.props.date} onChange={event => this.props.updateChoices(event.target.value)}/>
                         <button type="submit" className="btn button-primary">
                             <i className="fa fa-plus"></i>
                             Ajouter une date

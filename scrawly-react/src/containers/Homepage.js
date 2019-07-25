@@ -2,7 +2,7 @@ import { connect } from "react-redux";
 import { updateSlug, scrawlyShow } from "../actions/scrawly";
 import Homepage from "../components/Homepage";
 
-// Envoyer des données du state au composant
+// Envoyer des données du state HP au composant HP
 
 const mapStateToProps = state => {
     console.log(state)
@@ -11,7 +11,7 @@ const mapStateToProps = state => {
         id: state.scrawly.scrawl["@id"]
     }
 };
-// Envoyer des actions au composant
+// Envoyer des actions HP au composant HP
 
 const mapDispatchToProps = dispatch => ({
     updateSlug: slug => dispatch(updateSlug(slug)),

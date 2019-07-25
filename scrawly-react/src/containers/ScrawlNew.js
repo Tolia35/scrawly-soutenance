@@ -3,17 +3,16 @@ import { scrawlyCreate, updateSlug, updateTitle} from "../actions/scrawly";
 import ScrawlNew from "../components/ScrawlNew";
 
 
-// Envoyer des données du state au componant
+// Envoyer des données du state scrawl new au componant SN
 
 const mapStateToProps = state => {
-    console.log(state)
     return {
         scrawl: state.scrawly.scrawl,
         id: state.scrawly.scrawl["@id"],
     }
 };
 
-// Envoyer des actions au componant
+// Envoyer des action scrawl new au componant SN
 
 const mapDispatchToProps = dispatch => ({
     updateSlug: slug => dispatch(updateSlug(slug)),

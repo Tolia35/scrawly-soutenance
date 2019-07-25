@@ -1,5 +1,9 @@
 import React, { Component } from 'react';
 import {Redirect} from 'react-router-dom';
+
+
+// Visu pour le formulaire de nouveau scrawly ( titre )
+
 class ScrawlNew extends Component {
     handleSubmit(event) {
         event.preventDefault();
