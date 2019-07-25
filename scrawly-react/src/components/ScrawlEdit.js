@@ -19,7 +19,6 @@ class ScrawlEdit extends Component {
                     <ul>
                         <li>{this.props.scrawl.choices}</li>
                     </ul>
-                    <div>{this.props.error}</div>
 
                     <form onSubmit={event => this.handleSubmit(event)}>
                         <input type="date" placeholder="Scrawl Date" value={this.props.scrawl.choices} onChange={event => this.props.updateChoices(event.target.value)}/>

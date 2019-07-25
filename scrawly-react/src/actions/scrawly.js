@@ -159,4 +159,4 @@ export function choicesShowError() {
     return { type: CHOICES_SHOW_ERROR };
 }
 
-//pour chaque actions ( export en haut + export fonction + export fonction )  > reducer ( import + case )  > container ( import en haut + const map ) > component ( ++ )
+/*pour chaque actions ( export en haut + export fonction + export fonction )  > reducer ( import + case )  > container ( import en haut + const map ) > component ( ++ ) */

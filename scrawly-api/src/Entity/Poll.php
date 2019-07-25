@@ -33,7 +33,7 @@ class Poll
 
     /**
      * @Groups({"poll"})
-     * @ORM\Column(type="string", length=255, unique=true)
+     * @ORM\Column(type="string", length=255)
      */
     private $slug;
 

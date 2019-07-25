@@ -1,5 +1,5 @@
 import { connect } from "react-redux";
-import { updateChoices, choicesCreate, choicesShow} from "../actions/scrawly";
+import { updateChoices, choicesCreate, scrawlyShow} from "../actions/scrawly";
 import ScrawlEdit from "../components/ScrawlEdit";
 
 

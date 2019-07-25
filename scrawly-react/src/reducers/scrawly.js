@@ -16,13 +16,14 @@ import slugme from "slugme";
 
 const initialState = {
     scrawl: {
-        title:"",
-        slug:"",
-        choices:[],
-        person:[]
+        title: "",
+        slug: "",
+        choices: [],
+        person: []
     },
     error: ""
-}
+};
+
 function scrawlyApp (state = initialState, action){
     switch (action.type){
 
@@ -53,7 +54,7 @@ function scrawlyApp (state = initialState, action){
         case SCRAWLY_SHOW_ERROR:
             return {
                 ...state,
-                error: " le scrawly n'existe pas"
+                error: "le scrawly n'existe pas"
             };
 
         case SCRAWLY_CREATE_SUCCESS:
@@ -65,7 +66,7 @@ function scrawlyApp (state = initialState, action){
         case SCRAWLY_CREATE_ERROR:
             return {
                 ...state,
-                error: " le scrawly existe déja, merci de choisir un autre nom"
+                error: "le scrawly existe déja, merci de choisir un autre nom"
             };
 
 
@@ -94,6 +95,6 @@ function scrawlyApp (state = initialState, action){
             };
         default:
             return state;
-    };
+    }
 }
 export default scrawlyApp;
